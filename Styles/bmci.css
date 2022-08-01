@@ -1,0 +1,158 @@
+body{
+    background-image: url('../Images/hexellence.png');
+    background-attachment: fixed;
+
+    /*background-image: url('../Images/dna.jpg');*/
+}
+
+.divBackground
+{
+    background-image: url('../Images/dna.jpg');
+    background-size: cover;
+    /*opacity:0.5;
+    color:white;*/
+    /*height: 200px;
+    width: 400px;
+    border: 1px solid black;*/
+}
+
+.logoSize{
+     height: 135px;
+     width: 135px;
+     padding: 5px;
+ }
+
+.logoOMSPSize{
+    height: 135px;
+    width: 150px;
+    padding: 5px;
+}
+
+.textHeaderSize{
+    height: 120px;
+    /*width: 120px;*/
+    /*padding: 5px;*/
+}
+
+.headerBackground{
+   position: absolute;
+   height: 120px;
+}
+
+.logoSizeNav{
+    height: 49px;
+    width: 49px;
+    margin-top:-15px;
+}
+
+.divBackgroundBMCI
+{
+    background-image: url('../Images/logoBMCIWater.png');
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.centerImage
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@font-face {
+    font-family: oranienbaum;
+    src: url(../fonts/oranienbaum/Oranienbaum.eot);
+    src: url(../fonts/oranienbaum/Oranienbaum.svg);
+    src: url(../fonts/oranienbaum/Oranienbaum.ttf);
+    src: url(../fonts/oranienbaum/Oranienbaum.woff);
+}
+
+.titleFont {
+    font-family: 'oranienbaum', oranienbaum;
+    color: #131644;
+    margin-top:-15px;
+    text-shadow:rgba(0,0,0,.2) 2px 6px 5px,rgba(255,255,255,.4) 0 -4px 30px;
+    /*text-shadow:#2e2e2e 0 4px 5px;*/
+}
+
+.fs-28px{
+    font-size: 28px;
+}
+
+.fs-30px{
+    font-size: 30px;
+}
+
+.fs-17px{
+    font-size: 17px;
+}
+
+.fs-Info{
+    font-size: 20px;
+}
+
+.text-Info {
+    text-indent: 40px;
+}
+
+.blue-Font {
+    color: #131644;
+}
+
+.red-Font {
+    color: #FF0000;
+}
+
+.paddingTop-23px{
+   padding-top: 23px;
+}
+
+.slideImage{
+    width: auto;
+    height: 200px;
+    position: relative;
+}
+/* info */
+@media only screen and (min-width : 768px) {
+    .info {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .info .col-md-4 {
+        margin-bottom: 20px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .info h2 {
+        font-weight: normal;
+    }
+
+    .info .col-md-4 p {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width : 768px) {
+    .info {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .info .col-md-4 {
+        margin-bottom: 5px;
+        margin-top: 7px;
+        text-align: center;
+    }
+
+    .info h2 {
+        font-weight: normal;
+    }
+
+    .info .col-md-4 p {
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+
+}
